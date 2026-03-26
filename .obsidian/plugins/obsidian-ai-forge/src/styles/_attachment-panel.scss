@@ -1,0 +1,601 @@
+/* src/styles/attachment-panel.scss */
+
+// Приклад змінних SCSS, якщо потрібні специфічні для цієї панелі
+// $attachment-panel-border-color: var(--background-modifier-border);
+// $attachment-panel-bg-color: var(--background-secondary);
+
+.ollama-attachment-manager-modal {
+  background-color: var(--background-secondary); // $attachment-panel-bg-color;
+  border: 1px solid var(--background-modifier-border); // $attachment-panel-border-color;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: var(--radius-m);
+  z-index: var(--layer-modal);
+  padding: 0;
+  overflow: hidden;
+
+  // Якщо containerEl потрібен тут, хоча він зазвичай на рівні вище
+  // .ollama-attachment-modal-container { ... }
+}
+
+// Цей селектор важливий для перевизначення стилів Obsidian
+.ollama-attachment-modal-container .modal-content {
+  padding: 0 !important;
+}
+
+.ollama-attachment-modal-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: 380px;
+}
+
+.ollama-attachment-tabs {
+  display: flex;
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding: var(--size-2-2) var(--size-4-2);
+  gap: var(--size-4-1);
+  flex-shrink: 0;
+
+  .ollama-attachment-tab {
+    background-color: transparent;
+    border: none;
+    padding: var(--size-2-2) var(--size-4-2);
+    cursor: pointer;
+    color: var(--text-muted);
+    font-size: var(--font-ui-small);
+    border-radius: var(--radius-s);
+    display: flex;
+    align-items: center;
+    gap: var(--size-4-1);
+
+    &:hover {
+      background-color: var(--background-modifier-hover);
+      color: var(--text-normal);
+    }
+
+    &.is-active {
+      background-color: var(--background-modifier-active);
+      color: var(--text-normal);
+      font-weight: var(--font-semibold);
+    }
+  }
+}
+
+.ollama-attachment-content-container {
+  padding: var(--size-4-3);
+  overflow-y: auto;
+  flex-grow: 1;
+  min-height: 150px;
+
+  .ollama-attachment-content {
+    display: none;
+
+    &.is-active {
+      display: block;
+    }
+  }
+}
+
+/* Styles for Links Tab */
+.ollama-links-container {
+  // Цей клас додається до .ollama-attachment-content.is-active, коли активна вкладка 'links'
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-4-3);
+
+  .ollama-link-input-area {
+    display: flex;
+    gap: var(--size-4-2);
+
+    input[type="text"] {
+      flex-grow: 1;
+      min-width: 0;
+    }
+
+    button {
+      flex-shrink: 0;
+    }
+  }
+
+  .ollama-link-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-4-1);
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid var(--background-modifier-border-hover);
+    padding: var(--size-4-2);
+    border-radius: var(--radius-s);
+    background-color: var(--background-primary-alt);
+
+    .ollama-link-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: var(--size-2-1) var(--size-4-1);
+      background-color: var(--background-secondary);
+      border-radius: var(--radius-s);
+      font-size: var(--font-ui-smaller);
+
+      .ollama-link-item-text {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        flex-grow: 1;
+        margin-right: var(--size-4-1);
+      }
+
+      .ollama-link-item-remove {
+        background: none;
+        border: none;
+        color: var(--text-muted);
+        cursor: pointer;
+        padding: var(--size-2-1);
+
+        .svg-icon {
+          width: var(--icon-xs);
+          height: var(--icon-xs);
+        }
+
+        &:hover {
+          color: var(--text-error);
+        }
+      }
+    }
+  }
+
+  .ollama-attachment-empty-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--size-4-4);
+    text-align: center;
+    color: var(--text-faint);
+
+    .ollama-attachment-empty-icon .svg-icon {
+      width: var(--icon-l);
+      height: var(--icon-l);
+      margin-bottom: var(--size-4-2);
+    }
+    .ollama-attachment-empty-hint {
+      font-size: var(--font-ui-smaller);
+      color: var(--text-muted);
+    }
+  }
+
+  .ollama-attachment-clear-all-container {
+    margin-top: var(--size-4-2);
+    display: flex;
+    justify-content: flex-end;
+
+    button.mod-danger {
+      font-size: var(--font-ui-smaller);
+    }
+  }
+}
+
+.ollama-attachment-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--size-4-4);
+  text-align: center;
+  color: var(--text-faint);
+  height: 100%;
+
+  .ollama-attachment-placeholder-icon .svg-icon {
+    width: var(--icon-xl);
+    height: var(--icon-xl);
+    margin-bottom: var(--size-4-3);
+  }
+}
+
+/* Стилі для кнопки Attachment в панелі вводу */
+// Ці стилі стосуються кнопки, яка *викликає* панель,
+// тому їх можна залишити тут або перенести в input-controls.scss.
+// Для чистоти, я б залишив їх в input-controls.scss, але для повноти прикладу покажу тут.
+// Якщо переносиш, то цей блок можна видалити звідси.
+.chat-input-container .input-controls-left .attachment-button {
+  padding: var(--size-2-2);
+  border-radius: var(--radius-s);
+  background-color: transparent;
+  color: var(--text-muted);
+  border: none;
+  
+
+  &:hover {
+    background-color: var(--background-modifier-hover);
+           color: var(--text-normal);
+        opacity: 1;
+  }
+
+  &.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    &:hover {
+      background-color: transparent;
+    }
+  }
+}
+
+// ... (попередні стилі) ...
+
+// Стилі для інпута файлів та списку файлів
+.ollama-attachment-file-input-label {
+  // Це буде виглядати як кнопка
+  display: inline-block; // Або flex, якщо потрібно більше контролю над вмістом
+  padding: var(--size-4-2) var(--size-4-3);
+  background-color: var(--interactive-accent);
+  color: var(--text-on-accent);
+  border-radius: var(--radius-m);
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: var(--size-4-3); // Відступ знизу
+
+  &:hover {
+    background-color: var(--interactive-accent-hover);
+  }
+
+  .svg-icon {
+    margin-right: var(--size-4-1);
+  }
+}
+
+.ollama-attachment-file-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-4-2);
+  max-height: 180px; // Обмеження висоти списку файлів
+  overflow-y: auto;
+  border: 1px solid var(--background-modifier-border-hover);
+  padding: var(--size-4-2);
+  border-radius: var(--radius-s);
+  background-color: var(--background-primary-alt);
+
+  .ollama-attachment-file-item {
+    display: flex;
+    align-items: center;
+    gap: var(--size-4-2);
+    padding: var(--size-2-1) var(--size-4-1);
+    background-color: var(--background-secondary);
+    border-radius: var(--radius-s);
+    font-size: var(--font-ui-smaller);
+
+    .ollama-attachment-file-item-preview {
+      width: 32px; // Розмір мініатюри
+      height: 32px;
+      flex-shrink: 0;
+      border-radius: var(--radius-s);
+      overflow: hidden;
+      background-color: var(--background-modifier-hover); // Фон для порожніх прев'ю
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; // Щоб зображення заповнювало мініатюру
+      }
+    }
+    
+    .ollama-attachment-file-item-doc-icon .svg-icon {
+        width: var(--icon-m); // Розмір іконки документа
+        height: var(--icon-m);
+        color: var(--text-muted);
+    }
+
+    .ollama-attachment-file-item-details {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        min-width: 0; // Для правильного перенесення тексту, якщо ім'я довге
+    }
+
+    .ollama-attachment-file-item-name {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .ollama-attachment-file-item-size {
+        color: var(--text-faint);
+        font-size: var(--font-ui-smallest);
+    }
+
+    .ollama-attachment-file-item-remove { // Може бути таким же, як .ollama-link-item-remove
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      padding: var(--size-2-1);
+      margin-left: auto; // Щоб кнопка видалення була справа
+
+      .svg-icon {
+        width: var(--icon-xs);
+        height: var(--icon-xs);
+      }
+
+      &:hover {
+        color: var(--text-error);
+      }
+    }
+  }
+}
+
+// ... (стилі для .ollama-attachment-clear-all-container і т.д. залишаються) ...
+
+// ... (існуючі стилі для .attached-document-block, .header, .icon, .name) ...
+
+.attached-document-size {
+  margin-left: calc(var(--chat-spacing-unit, 5px) * 1.5);
+  font-size: var(--font-ui-smaller);
+  color: var(--text-faint);
+}
+
+.attached-document-content {
+  // ... (існуючі стилі) ...
+  &.truncated {
+    // ... (існуючі стилі) ...
+  }
+  pre {
+    // ... (існуючі стилі) ...
+  }
+}
+
+.attached-document-show-more {
+  // ... (існуючі стилі) ...
+}
+
+.attached-document-generic-info {
+  font-style: italic;
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+  padding: calc(var(--chat-spacing-unit, 5px) * 1) 0; // Невеликий відступ
+}
+
+// Іконка для PDF (як приклад, якщо ти використовуєш lucide icons)
+.lucide-file-type-pdf { /* твої стилі для іконки PDF */ }
+
+
+// ... (існуючі стилі) ...
+
+
+.attached-document-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: calc(var(--chat-spacing-unit, 5px) * 1.5);
+  font-weight: 500;
+  color: var(--text-normal);
+}
+
+.attached-document-icon {
+  margin-right: calc(var(--chat-spacing-unit, 5px) * 1.5);
+  color: var(--text-muted); // Колір іконки
+  .svg-icon { // Розмір іконки
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.attached-document-name {
+  flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; // Додає "..." якщо назва занадто довга
+}
+
+.attached-document-content-wrapper {
+  // Може знадобитися для додаткового контролю, поки що простий
+}
+
+.attached-document-content {
+  font-size: var(--font-ui-small); // Розмір тексту вмісту
+  line-height: 1.5;
+  color: var(--text-normal);
+  max-height: 150px; // Обмежуємо висоту для прев'ю
+  overflow: hidden;
+  position: relative; // Для кнопки "Show More" та градієнту
+
+  &.truncated {
+    // Плавний перехід до прозорості знизу, якщо текст обрізаний
+    &::after {
+      content: '';
+      // position: absolute; //FIXME
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 30px; // Висота градієнту
+      background: linear-gradient(to bottom, transparent, var(--background-secondary));
+      pointer-events: none; // Щоб не заважало клікам
+    }
+  }
+  
+  // Стилі для <pre> всередині .attached-document-content, якщо це не Markdown
+  pre {
+    white-space: pre-wrap; // Переносити довгі рядки
+    word-break: break-all; // Переносити дуже довгі слова без пробілів
+    margin: 0; // Забрати дефолтні відступи <pre>
+    padding: 0;
+    background-color: transparent; // Фон вже на .attached-document-block
+    border: none;
+    font-family: var(--font-monospace);
+  }
+
+  // Стилі для Markdown вмісту
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 0.5em;
+    margin-bottom: 0.25em;
+    font-size: 1.1em; // Трохи менші заголовки всередині блоку
+    &:first-child {
+        margin-top: 0;
+    }
+  }
+  p {
+    margin-bottom: 0.5em;
+     &:last-child {
+        margin-bottom: 0;
+    }
+  }
+  ul, ol {
+    padding-left: 20px;
+    margin-bottom: 0.5em;
+  }
+  blockquote {
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 3px solid var(--background-modifier-border-hover);
+  }
+}
+
+.attached-document-show-more {
+  display: block; // Робить кнопку блочною
+  width: fit-content; // Ширина по контенту
+  margin-top: calc(var(--chat-spacing-unit, 5px) * 1.5);
+  margin-left: auto; // Вирівнювання по правому краю, якщо потрібно
+  margin-right: auto; // Або по центру
+  padding: calc(var(--chat-spacing-unit, 5px) * 0.75) calc(var(--chat-spacing-unit, 5px) * 2);
+  font-size: var(--font-ui-smaller);
+  color: var(--text-accent);
+  background-color: var(--background-primary);
+  border: 1px solid var(--interactive-accent);
+  border-radius: var(--radius-s);
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+
+  &:hover {
+    background-color: var(--interactive-accent-hover);
+    color: var(--text-on-accent);
+  }
+}
+
+// ... (існуючі стилі) ...
+
+// --- Стилі для нової структури повідомлення користувача ---
+.user-content-attachments-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; // Вирівнювання по правому краю для користувача
+  width: 100%; // Дозволяє карткам та бульбашці займати доступну ширину
+  max-width: var(--chat-message-max-width, 700px); // Обмежуємо максимальну ширину
+}
+
+.message-attachment-cards-container {
+  display: flex;
+  flex-wrap: wrap; // Дозволяє карткам переноситися
+  gap: calc(var(--chat-spacing-unit, 5px) * 1.5); // Відстань між картками
+  margin-bottom: calc(var(--chat-spacing-unit, 5px) * 1.5); // Відстань до бульбашки повідомлення
+  align-self: stretch; // Розтягує контейнер карток на всю ширину user-content-attachments-wrapper
+
+  &.hidden-attachment-cards {
+    display: none; // Повністю ховаємо, якщо немає карток
+  }
+}
+
+.attachment-card {
+  background-color: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-m, 8px);
+  padding: calc(var(--chat-spacing-unit, 5px) * 2);
+  min-width: 120px; // Мінімальна ширина картки
+  max-width: 200px; // Максимальна ширина картки
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--chat-spacing-unit, 5px) * 0.5);
+  transition: box-shadow 0.2s ease-out;
+  cursor: default; // Або pointer, якщо буде дія по кліку
+
+  &:hover {
+    box-shadow: var(--shadow-s);
+  }
+}
+
+.attachment-card-name {
+  font-weight: 500;
+  color: var(--text-normal);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: var(--font-ui-small);
+}
+
+.attachment-card-meta {
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  display: flex;
+  justify-content: space-between; // Якщо буде кілька елементів (напр. lines та size)
+}
+
+.attachment-card-lines,
+.attachment-card-size {
+  // Стилі для кількості рядків або розміру
+}
+
+.attachment-card-type {
+  font-size: var(--font-ui-tiny); // Дуже маленький шрифт для типу
+  color: var(--text-faint);
+  background-color: var(--background-modifier-hover);
+  padding: calc(var(--chat-spacing-unit, 5px) * 0.25) calc(var(--chat-spacing-unit, 5px) * 1);
+  border-radius: var(--radius-s);
+  align-self: flex-start; // Розміщуємо зліва
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.attachment-card.image-card {
+  // Спеціальні стилі для картки зображення, якщо потрібно
+  // Наприклад, можна зробити її трохи меншою або іншого розміру
+  padding: calc(var(--chat-spacing-unit, 5px) * 1); // Менший падінг для картки з зображенням
+}
+
+.attachment-card-image-preview {
+  width: 100%; // Займає всю ширину картки
+  max-height: 80px; // Обмежуємо висоту прев'ю
+  object-fit: cover;
+  border-radius: var(--radius-s);
+  margin-bottom: calc(var(--chat-spacing-unit, 5px) * 0.5);
+}
+
+// Обгортка для бульбашки повідомлення, щоб вона була під картками
+.user-message-bubble-wrapper {
+  width: fit-content; // Щоб бульбашка не розтягувалася на всю ширину, якщо текст короткий
+  max-width: 100%; // Але може займати всю доступну ширину
+  align-self: flex-end; // Вирівнювання по правому краю
+  
+  // Цей клас додається, якщо текст користувача порожній, але є вкладення
+  .message.empty-user-text-bubble {
+    // Можна зробити її менш помітною або взагалі невидимою,
+    // якщо вона не містить timestamp/кнопок
+    padding: calc(var(--chat-spacing-unit, 5px) * 1) !important; // Мінімальний падінг
+    min-height: 0 !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+}
+
+// Мінімальна обгортка для мета-інформації, якщо немає основної бульбашки
+.minimal-meta-actions-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: calc(var(--chat-spacing-unit, 5px) * 1);
+  padding-right: calc(var(--chat-spacing-unit, 5px) * 0.5); // Невеликий відступ справа
+
+  .message-timestamp {
+    font-size: 0.7em;
+    color: var(--text-faint);
+  }
+}
+
+// Прибираємо стару обгортку для документів всередині бульбашки, якщо вона ще десь використовується
+.message-attached-documents-container {
+  // display: none !important; // Або видалити повністю, якщо більше не потрібна
+}
+.attached-document-block {
+  // display: none !important; // Або видалити повністю
+}
+
+
+
+
+

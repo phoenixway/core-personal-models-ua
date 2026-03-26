@@ -1,0 +1,18 @@
+.links-container ul {
+    list-style-type: disc; /* Булети */
+    padding-left: 20px; /* Відступ для булетів */
+    margin: 0; /* Видаляємо зовнішні відступи */
+}
+
+.links-container li {
+    margin-bottom: 5px; /* Відступ між елементами списку */
+}
+
+.links-container a {
+    color: var(--text-accent); /* Колір посилань */
+    text-decoration: none; /* Видаляємо підкреслення */
+}
+
+.links-container a:hover {
+    text-decoration: underline; /* Підкреслення при наведенні */
+}

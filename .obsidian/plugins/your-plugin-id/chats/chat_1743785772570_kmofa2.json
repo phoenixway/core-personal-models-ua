@@ -1,0 +1,12 @@
+{
+  "metadata": {
+    "id": "chat_1743785772570_kmofa2",
+    "name": "Chat 4/4/2025 07:56 PM",
+    "modelName": "granite3.2:latest",
+    "selectedRolePath": "etc/ollama-ai/roles/rpg-partner.md",
+    "temperature": 0.2,
+    "createdAt": "2025-04-04T16:56:12.570Z",
+    "lastModified": "2025-04-04T16:56:12.570Z"
+  },
+  "messages": []
+}

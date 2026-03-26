@@ -1,1 +1,47 @@
-{}
+{
+  "spellcheck": false,
+  "alwaysUpdateLinks": true,
+  "trashOption": "local",
+  "promptDelete": false,
+  "newFileLocation": "current",
+  "mobileToolbarCommands": [
+    "editor:insert-wikilink",
+    "editor:insert-embed",
+    "editor:insert-tag",
+    "editor:attach-file",
+    "editor:toggle-bullet-list",
+    "editor:toggle-checklist-status",
+    "editor:swap-line-up",
+    "editor:swap-line-down",
+    "editor:unindent-list",
+    "editor:indent-list",
+    "darlal-switcher-plus:switcher-plus:open-editors",
+    "editor:cut",
+    "editor:copy",
+    "editor:paste",
+    "obsidian-outliner:move-list-item-up",
+    "obsidian-outliner:move-list-item-down",
+    "obsidian-outliner:outdent-list",
+    "obsidian-outliner:indent-list",
+    "editor:undo",
+    "editor:redo",
+    "line-commands:select-lines",
+    "line-commands:copy-lines",
+    "line-commands:cut-lines",
+    "line-commands:paste-before-line",
+    "line-commands:paste-after-line",
+    "task-status:change-task-status",
+    "editor:delete-paragraph",
+    "editor:configure-toolbar",
+    "darlal-switcher-plus:switcher-plus:open",
+    "darlal-switcher-plus:switcher-plus:open-commands"
+  ],
+  "mobilePullAction": "darlal-switcher-plus:switcher-plus:open",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

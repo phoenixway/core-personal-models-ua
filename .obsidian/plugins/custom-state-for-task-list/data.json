@@ -1,0 +1,24 @@
+{
+  "customStates": [
+    {
+      "state": "committed",
+      "readingView": "📌"
+    },
+    {
+      "state": "doing",
+      "readingView": "🚧"
+    },
+    {
+      "state": "deferred",
+      "readingView": "😴"
+    },
+    {
+      "state": "removed",
+      "readingView": "🗑"
+    },
+    {
+      "state": "f",
+      "readingView": "🔥"
+    }
+  ]
+}

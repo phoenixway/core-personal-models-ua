@@ -1,0 +1,109 @@
+// src/styles/responsive/_phone.scss
+// Стилі для екранів <= 480px (застосовуються ПОВЕРХ стилів _tablet.scss)
+
+:root {
+  --chat-spacing-unit: 3px;   // Ще менший відступ
+  --chat-avatar-size: 26px;   // Менший аватар
+  --chat-message-max-width: 94%; // Дуже широкі бульбашки
+}
+
+.ollama-chat-container {
+  padding: calc(var(--chat-spacing-unit) * 2); /* 6px */
+  padding-bottom: var(--chat-spacing-unit); /* 3px */
+}
+
+.message-group {
+   // Відступи для аватара
+   &.user-message-group .message-wrapper { margin-right: calc(var(--chat-avatar-size) + var(--chat-spacing-unit) * 2); } // 26+6 = 32px
+   &.ollama-message-group .message-wrapper { margin-left: calc(var(--chat-avatar-size) + var(--chat-spacing-unit) * 2); } // 26+6 = 32px
+   margin-bottom: calc(var(--chat-spacing-unit) * 6);}
+
+.message {
+  font-size: var(--font-ui-small); // Звичайний малий шрифт UI
+  padding: calc(var(--chat-spacing-unit) * 1.5) calc(var(--chat-spacing-unit) * 2); // 4.5px 6px
+  border-radius: 15px; // Менше заокруглення
+}
+
+.message-timestamp {
+  font-size: 0.7em;
+  margin-top: 2px;
+}
+
+// Кнопки дій у повідомленнях
+.message-actions-wrapper {
+  top: 1px; right: 2px; gap: 2px; // Компактно
+  button .svg-icon { width: 12px; height: 12px; } // Дуже малі
+}
+
+// Панель керування
+.chat-input-container {
+  margin: 4px; // Майже без зовнішніх відступів
+  padding: var(--chat-spacing-unit) calc(var(--chat-spacing-unit) * 2); // 3px 6px
+  border-radius: 10px;
+  gap: 4px; // Менший відступ textarea -> controls
+
+  textarea {
+    font-size: var(--font-ui-smaller); // Менший шрифт
+    padding: 8px 10px;
+    min-height: 34px;
+    margin-bottom: 4px;
+  }
+
+  .input-controls-container {
+     gap: 4px; // Менший відступ між групами
+     justify-content: space-between;
+  }
+
+  .input-controls-left {
+      gap: 4px; // Менший відступ
+
+      // Приховуємо кнопку перекладу на телефонах
+      .translate-input-button {
+          //  display: none;
+      }
+
+      // Зменшуємо решту
+      .model-display {
+          padding: 2px 5px;
+          font-size: calc(var(--font-ui-smaller) * 0.9);
+          max-width: 100px; // Обмеження
+      }
+      .temperature-indicator {
+          padding: 2px 3px;
+          font-size: 1em; // Звичайний розмір
+          min-width: 22px;
+      }
+      // role-display приховано через _tablet.scss
+  }
+
+  .input-controls-right {
+      gap: 4px;
+      button { // Кнопка меню
+          width: 28px; height: 28px;
+           .svg-icon { width: 16px; height: 16px; }
+      }
+      // voice-button та send-button приховані через _tablet.scss
+  }
+}
+
+// Меню
+.menu-dropdown.ollama-chat-menu {
+  min-width: 160px;
+  font-size: var(--font-ui-small);
+
+  .menu-option, .menu-header-item {
+    padding: var(--chat-spacing-unit) calc(var(--chat-spacing-unit) * 2); // Менше падінгу
+  }
+  .submenu-content .menu-option {
+     padding-left: var(--chat-spacing-unit) !important; // Менший відступ в підменю
+  }
+  .menu-option-text { font-size: 1em; }
+  .chat-option .chat-option-date { font-size: 0.7em; }
+
+  // Обмеження висоти списків у меню
+  .submenu-content.model-list-container,
+  .submenu-content.role-list-container,
+  .submenu-content.chat-list-container {
+      max-height: 150px; // Менша висота для телефонів
+  }
+}

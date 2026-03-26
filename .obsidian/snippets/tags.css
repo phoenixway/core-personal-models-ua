@@ -1,0 +1,162 @@
+/* for whatever reason as i tested this, i need to put "initialise",
+        else the .tag below it won't be captured by obsidian.
+        if removing works for you, can just remove */
+    .tag { }
+
+    .cm-hashtag,
+    .tag {
+        /* background-color: var(--text-accent); */
+        border: none;
+        color: lightgrey;
+        font-size: 14px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        padding-block: 1px;
+        margin: 0px 0px;
+        cursor: pointer;
+    }
+    /* border-radius and padding need to be separated as editing view
+        has split css selector for "#" and "<tag-word>" */
+    .tag {
+        border-radius: 14px;
+        padding-inline: 8px;
+    }
+    .cm-hashtag-begin {
+        border-top-left-radius: 14px;
+        border-bottom-left-radius: 14px;
+        padding-left: 8px;
+    }
+    .cm-hashtag-end {
+        border-top-right-radius: 14px;
+        border-bottom-right-radius: 14px;
+        padding-right: 8px;
+    }
+
+
+    /* i comment out background-color as it doesn't look good on hover
+        due to how obsidian split between "#" and "<tag-word>" */
+    /* .cm-s-obsidian span.cm-hashtag:is(.cm-hashtag-begin,.cm-hashtag-end):hover, */
+    /* .tag:hover { */
+        /* color: white; */
+        /*
+        background-color: var(--text-accent-hover);
+        */
+    }
+
+
+    /* attribute selector "$=" matches tags that ends with that word
+        where as "^=" matches tags that starts with that tag */
+
+    .cm-s-obsidian span.cm-hashtag[class$="obsidian"],
+    .tag[href^="#obsidian"]
+        { background-color: #4d3ca6; }
+
+    .cm-s-obsidian span.cm-hashtag[class$="important"],
+    .tag[href^="#important"]
+        { background-color: red; }
+
+    .cm-s-obsidian span.cm-hashtag[class$="complete"],
+    .tag[href^="#complete"]
+        { background-color: green; }
+
+    .cm-s-obsidian span.cm-hashtag[class$="inprogress"],
+    .tag[href^="#inprogress"]
+        { background-color: orange; }
+
+    .cm-s-obsidian span.cm-hashtag[class$="survive"],
+    .tag[href^="#survive"]
+        { background-color: crimson; }
+
+    .cm-s-obsidian span.cm-hashtag[class$="primary"],
+    .tag[href^="#primary"]
+        { background-color: indigo; }
+
+    .cm-s-obsidian span.cm-hashtag[class$="days-of-high-level"],
+    .tag[href^="#days-of-high-level"]
+        {
+            background-color: orange;
+            color: black;
+        }
+
+    .cm-s-obsidian span.cm-hashtag[class$="bb"],
+    .tag[href^="#bb"]
+        { background-color: hotpink; }
+
+    .cm-s-obsidian span.cm-hashtag[class$="defence"],
+    .tag[href^="#defence"]
+        {
+            background-color: white;
+            color: darkred;
+            font-weight: bold;
+        }
+
+    .cm-s-obsidian span.cm-hashtag[class$="form-life-path-I-choose"],
+    .tag[href^="#form-life-path-I-choose"]
+        {
+            background-color: yellow;
+            color: darkblue;
+            font-weight: bold;
+        }
+
+    .cm-s-obsidian span.cm-hashtag[class$="publication"],
+    .tag[href^="#publication"]
+        {
+            background-color: darkblue;
+            color: yellow;
+            font-weight: bold;
+        }
+
+    .cm-s-obsidian span.cm-hashtag[class$="sharing-true"],
+    .tag[href^="#sharing-true"]
+        {
+            background-color: darkblue;
+            color: yellow;
+            font-weight: bold;
+        }
+
+    .cm-s-obsidian span.cm-hashtag[class$="life-progress"],
+    .tag[href^="#life-progress"]
+        {
+            background-color: royalblue;
+            color: yellow;
+            /* font-weight: bold; */
+        }
+
+    .cm-s-obsidian span.cm-hashtag[class$="problems-solving"],
+    .tag[href^="#problems-solving"]
+        {
+            background-color: salmon;
+            color: maroon;
+        }
+
+
+    .cm-s-obsidian span.cm-hashtag[class$="loved-ones"],
+    .tag[href^="#loved-ones"]
+        { background-color: hotpink; }
+
+    .cm-s-obsidian span.cm-hashtag[class$="reputation"],
+    .tag[href^="#reputation"]
+        {
+            background-color: silver;
+            color: black;
+        }
+
+    .cm-s-obsidian span.cm-hashtag[class$="finances"],
+    .tag[href^="#finances"]
+        {
+            background-color: lightgreen;
+            color: black;
+        }
+
+    .cm-s-obsidian span.cm-hashtag[class$="secondary"],
+    .tag[href^="#secondary"]
+        { background-color: olive; }
+
+    .cm-s-obsidian span.cm-hashtag[class$="mixed"],
+    .tag[href^="#mixed"]
+        {
+            background-color: greenyellow;
+            color: black;
+        }
+        

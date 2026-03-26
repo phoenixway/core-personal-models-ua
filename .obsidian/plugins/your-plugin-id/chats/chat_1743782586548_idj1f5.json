@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "id": "chat_1743782586548_idj1f5",
+    "name": "Chat 4/4/2025 07:03 PM",
+    "modelName": "gemma3:4b",
+    "selectedRolePath": "etc/ollama-ai/roles/sherlock.md",
+    "temperature": 0.2,
+    "createdAt": "2025-04-04T16:03:06.548Z",
+    "lastModified": "2025-04-04T16:06:38.991Z"
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "hi",
+      "timestamp": "2025-04-04T16:03:32.189Z"
+    },
+    {
+      "role": "user",
+      "content": "hey",
+      "timestamp": "2025-04-04T16:06:38.991Z"
+    }
+  ]
+}

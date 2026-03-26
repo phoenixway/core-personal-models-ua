@@ -1,0 +1,148 @@
+{
+  "checkboxOptions": [
+    {
+      "title": "to-do",
+      "character": " "
+    },
+    {
+      "title": "incomplete",
+      "character": "/"
+    },
+    {
+      "title": "done",
+      "character": "x"
+    },
+    {
+      "title": "canceled",
+      "character": "-"
+    },
+    {
+      "title": "forwarded",
+      "character": ">"
+    },
+    {
+      "title": "scheduling",
+      "character": "<"
+    },
+    {
+      "title": "question",
+      "character": "?"
+    },
+    {
+      "title": "important",
+      "character": "!"
+    },
+    {
+      "title": "star",
+      "character": "*"
+    },
+    {
+      "title": "quote",
+      "character": "\""
+    },
+    {
+      "title": "location",
+      "character": "l"
+    },
+    {
+      "title": "bookmark",
+      "character": "b"
+    },
+    {
+      "title": "information",
+      "character": "i"
+    },
+    {
+      "title": "savings",
+      "character": "S"
+    },
+    {
+      "title": "idea",
+      "character": "I"
+    },
+    {
+      "title": "pros",
+      "character": "p"
+    },
+    {
+      "title": "cons",
+      "character": "c"
+    },
+    {
+      "title": "fire",
+      "character": "f"
+    },
+    {
+      "title": "key",
+      "character": "k"
+    },
+    {
+      "title": "win",
+      "character": "w"
+    },
+    {
+      "title": "up",
+      "character": "u"
+    },
+    {
+      "title": "down",
+      "character": "d"
+    },
+    {
+      "title": "draft pull request",
+      "character": "D"
+    },
+    {
+      "title": "open pull request",
+      "character": "P"
+    },
+    {
+      "title": "merged pull request",
+      "character": "M"
+    },
+    {
+      "character": "n",
+      "title": "Note"
+    },
+    {
+      "character": "0",
+      "title": "Speech bubble 0"
+    },
+    {
+      "character": "1",
+      "title": "Speech bubble 1"
+    },
+    {
+      "character": "2",
+      "title": "Speech bubble 2"
+    },
+    {
+      "character": "3",
+      "title": "Speech bubble 3"
+    },
+    {
+      "character": "4",
+      "title": "Speech bubble 4"
+    },
+    {
+      "character": "5",
+      "title": "Speech bubble 5"
+    },
+    {
+      "character": "6",
+      "title": "Speech bubble 6"
+    },
+    {
+      "character": "7",
+      "title": "Speech bubble 7"
+    },
+    {
+      "character": "8",
+      "title": "Speech bubble 8"
+    },
+    {
+      "character": "9",
+      "title": "Speech bubble 9"
+    }
+  ]
+}

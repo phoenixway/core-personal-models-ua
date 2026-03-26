@@ -1,0 +1,73 @@
+// src/styles/responsive/_desktop.scss
+// Стилі для екранів >= 769px (скасовують/перевизначають мобільні/планшетні стилі)
+
+// Мінімальна висота чату на десктопі
+.workspace-leaf-content[data-type='ollama-personas-chat-view'] .ollama-container {
+    min-height: 300px; // Або інше значення, напр. 50vh
+}
+
+// Панель керування: Відновлюємо видимість прихованих елементів (якщо вони були приховані в _tablet)
+.chat-input-container {
+    margin-bottom: calc(var(--chat-spacing-unit) * 2);
+
+
+    .input-controls-container {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .input-controls-right {
+
+        .voice-button,
+        .send-button {
+            display: flex; // Явно показуємо кнопки
+        }
+
+        .toggle-location-button {
+            display: flex; // Показуємо кнопку перемикання місця
+        }
+    }
+
+    .input-controls-left {
+        .role-display,
+        .translate-input-button {
+            display: inline-flex; // Явно показуємо роль та переклад
+            align-items: center;
+        }
+        .translate-input-button { display: flex; } // flex краще для кнопки
+
+    }
+}
+
+// Кнопки дій у повідомленнях (повертаємо поведінку "з'являтись при наведенні")
+.message-actions-wrapper {
+    opacity: 0; // Сховані за замовчуванням
+    visibility: hidden;
+    transition: opacity 0.2s ease-in-out, visibility 0s linear 0.2s; // Повертаємо анімацію
+
+    button {
+        // Повертаємо стандартні стилі кнопки, якщо потрібно (розмір іконки тощо)
+        // .svg-icon { width: 14px; height: 14px; }
+        // Повертаємо стандартні background/border/padding, якщо вони змінювались у _tablet
+        background-color: transparent;
+        border: none;
+        padding: 2px; // Можливо, трохи більші
+
+        &:hover {
+            // Стандартний hover-ефект для десктопу
+            background-color: var(--background-modifier-hover);
+            transform: scale(1.1); // Повертаємо scale
+            opacity: 1;
+        }
+    }
+}
+
+// Показуємо кнопки при наведенні на повідомлення
+.message:hover .message-actions-wrapper {
+    opacity: 0.8;
+    visibility: visible;
+    transition-delay: 0s; // Показываем сразу при наведении на сообщение
+}
+
+
+// Меню: Приховуємо майже все, залишаючи тільки Settings

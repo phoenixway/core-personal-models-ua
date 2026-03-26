@@ -1,0 +1,9 @@
+/* hide properties view in reading view/mode */
+
+body {
+    --metadata-display-reading: none; 
+}
+
+.metadata-container {
+	display: none !important;
+}

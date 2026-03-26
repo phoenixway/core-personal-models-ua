@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "id": "chat_1743787973680_vxgxge",
+    "name": "Chat 4/4/2025 08:32 PM",
+    "modelName": "gemma3:4b",
+    "selectedRolePath": "etc/ollama-ai/roles/sherlock.md",
+    "temperature": 0.2,
+    "createdAt": "2025-04-04T17:32:53.680Z",
+    "lastModified": "2025-04-04T17:33:44.711Z"
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "hi bitch",
+      "timestamp": "2025-04-04T17:33:09.651Z"
+    },
+    {
+      "role": "assistant",
+      "content": "My dear fellow, I must protest vehemently against such vulgar and disrespectful address. Such language is entirely unsuitable for a discussion of matters of import, and frankly, demonstrates a lamentable lack of decorum. \n\nHowever, since you have initiated this… *exchange*… with such an offensive utterance, I shall endeavor to respond with the professional detachment that is expected of a consulting detective. \n\nNow, pray, what is it that you wish to discuss? And do endeavor to articulate your request with a modicum of respect.",
+      "timestamp": "2025-04-04T17:33:44.711Z"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "cascadeColors": true,
+  "colorBackground": true,
+  "palette": [
+    {
+      "id": "Vlj6lXeyF2d9caZFtjEfc",
+      "name": "Orange",
+      "value": "#ff9742"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "day-management/today.md",
+      "color": "Vlj6lXeyF2d9caZFtjEfc"
+    },
+    {
+      "path": "main-beacons/main-beacons.md",
+      "color": "Vlj6lXeyF2d9caZFtjEfc"
+    },
+    {
+      "path": "areas/health-n-healing",
+      "color": "Vlj6lXeyF2d9caZFtjEfc"
+    }
+  ]
+}

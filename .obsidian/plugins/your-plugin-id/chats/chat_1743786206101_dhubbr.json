@@ -1,0 +1,12 @@
+{
+  "metadata": {
+    "id": "chat_1743786206101_dhubbr",
+    "name": "Chat 4/4/2025 08:03 PM",
+    "modelName": "granite3.2:latest",
+    "selectedRolePath": "etc/ollama-ai/roles/sherlock.md",
+    "temperature": 0.2,
+    "createdAt": "2025-04-04T17:03:26.101Z",
+    "lastModified": "2025-04-04T17:03:26.101Z"
+  },
+  "messages": []
+}

@@ -1,0 +1,31 @@
+.red {
+    background-color: #FF558233;
+    
+}
+
+div[aria-label*="day" i] {
+    	background-color: #FFB86CA6 !important;
+	/*color: white !important;*/
+}   
+
+div[aria-label*="strategy" i] {
+    	background-color: #ADCCFFA6 !important;
+	/*color: white !important;*/
+}   
+
+div.red[aria-label] {
+    /* стилі для div з класом "red" */
+    background-color: red !important;
+}
+
+.tab-color-red .workspace-tab-header {
+    background-color: red !important;
+}
+
+.tab-color-blue .workspace-tab-header.is-active {
+    background-color: blue !important;
+}
+
+.tab-color-green .workspace-tab-header.is-active {
+    background-color: green !important;
+}

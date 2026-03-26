@@ -1,0 +1,13 @@
+{
+    "id": "obsidian-ai-forge",  
+    "name": "AI Forge",         
+    "version": "0.3.1",              
+    "minAppVersion": "0.15.0",       
+    "description": "AI Forge",
+    "author": "Roman Kozak",         
+    "authorUrl": "https://github.com/phoenixway/",
+    "isDesktopOnly": false,         
+    "main": "main.js",              
+    "pluginApiVersion": 1         
+  }
+  

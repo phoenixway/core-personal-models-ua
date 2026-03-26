@@ -1,0 +1,178 @@
+// src/styles/_layout.scss
+// Main layout structure for the Ollama View
+
+// --- ДОДАНО: Імпорт стилів сайдбару ---
+@import 'sidebar';
+// --- КІНЕЦЬ ІМПОРТУ ---
+
+// Main View Container
+.ollama-container {
+    display: flex;
+    flex-direction: row; // Horizontal layout: panel + chat
+    height: 100%;
+    background-color: var(--background-secondary-alt);
+    align-items: stretch; // Stretch children vertically
+    gap: 0;
+    overflow: hidden; // Main container clips anything overflowing it
+}
+
+// --- Main Chat Area (Messages + Input) --- (Залишається тут)
+.ollama-main-chat-area {
+    display: flex;
+    flex-direction: column; // Vertical layout: messages above, input below
+    flex-grow: 1; // Takes remaining horizontal space
+    height: 100%;
+    min-width: 0; // Allows shrinking
+    overflow: hidden; // Clips content overflowing this area
+    transition: width 0.3s ease-out; // Анімація ширини (не потрібна, якщо flex-grow)
+
+    // Клас, що додається, коли внутрішній сайдбар приховано
+    &.full-width {
+       // Стилі не потрібні, flex-grow впорається
+    }
+}
+
+// Wrapper for message list (has .ollama-chat-area-content in TS)
+.ollama-chat-area-content {
+    flex-grow: 1; // Takes available vertical space
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    overflow: hidden;
+}
+
+// The actual message list container
+.ollama-chat-container {
+    flex-grow: 1;
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+    padding: calc(var(--chat-spacing-unit) * 4);
+    overflow-y: auto;
+    min-height: 0;
+
+    // Scrollbar styles for messages
+    &::-webkit-scrollbar { width: 8px; }
+    &::-webkit-scrollbar-track { background: var(--background-secondary); border-radius: 4px; margin: 4px 0; }
+    &::-webkit-scrollbar-thumb { background-color: var(--background-modifier-border); border-radius: 4px; border: 2px solid var(--background-secondary); }
+    &::-webkit-scrollbar-thumb:hover { background-color: var(--interactive-accent-translucent); }
+}
+
+// Input area container
+.chat-input-container {
+    flex-shrink: 0;
+    // Visual styles (padding, border, background etc.) should be in _input.scss
+}
+// --- End Main Chat Area ---
+
+
+// --- RESPONSIVE ---
+@media screen and (max-width: 768px) { // Tablet and smaller
+    .ollama-container {
+        flex-direction: column; // Stack vertically
+        overflow: visible; // Allow page scrolling if needed
+    }
+    // --- ЗМІНЕНО СЕЛЕКТОР ---
+    .ollama-sidebar-container { // Приховуємо на мобільних
+        display: none !important; // Force hide
+        // Скидаємо стилі, що стосуються бічного розташування
+        width: 100%;
+        height: auto;
+        border-right: none;
+        border-bottom: 1px solid var(--divider-color);
+        margin-right: 0;
+    }
+    // --- КІНЕЦЬ ЗМІНИ ---
+    .ollama-main-chat-area {
+        height: 100%;
+        border-left: none;
+        overflow: visible;
+    }
+    .chat-input-container {
+         margin-top: 10px;
+    }
+}
+// --- END RESPONSIVE ---
+
+
+// --- User Select Fix ---
+.ollama-container .message .message-content {
+    user-select: text !important;
+    pre, code {
+      user-select: text !important;
+    }
+}
+.ollama-container .user-message .message-content {
+     user-select: text !important;
+}
+
+.ollama-resizer-handle {
+    width: 4px; // Ширина смужки роздільника
+    background-color: var(--divider-color); // Колір як у стандартних роздільників
+    cursor: ew-resize; // Курсор для горизонтального перетягування
+    flex-shrink: 0; // Не стискати роздільник
+    transition: background-color 0.2s ease-out;
+    position: relative; // Для можливого додавання ::before/::after
+
+    // Зона кліку може бути ширшою для зручності
+    // &::before {
+    //     content: '';
+    //     position: absolute;
+    //     left: -3px;
+    //     right: -3px;
+    //     top: 0;
+    //     bottom: 0;
+    //     z-index: 1;
+    // }
+
+    &:hover {
+        background-color: var(--interactive-accent); // Змінюємо колір при наведенні
+    }
+
+    // Стиль приховування, якщо сайдбар приховано
+    &.internal-sidebar-hidden {
+        width: 0 !important;
+        min-width: 0 !important;
+        border: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: hidden !important;
+        pointer-events: none !important; // Не реагувати на кліки
+    }
+}
+
+// Стиль для body під час перетягування (змінює курсор всюди)
+body.is-resizing {
+    cursor: ew-resize !important; // Примусово змінюємо курсор
+    user-select: none !important; // Забороняємо виділення тексту
+}
+// --- КІНЕЦЬ СТИЛІВ ДЛЯ РОЗДІЛЬНИКА ---
+
+
+// Основний контейнер View (переконайтесь, що він flex-row)
+.ollama-container {
+    display: flex;
+    flex-direction: row; // МАЄ БУТИ row
+    height: 100%;
+    background-color: var(--background-secondary-alt);
+    align-items: stretch;
+    gap: 0; // Без проміжку між сайдбаром, роздільником та чатом
+    overflow: hidden;
+}
+
+// Сайдбар плагіна
+.ollama-sidebar-container {
+    // ... існуючі стилі сайдбару (width, min-width, background, etc.) ...
+    flex-shrink: 0; // Важливо, щоб не стискався
+}
+
+// Основна область чату
+.ollama-main-chat-area {
+     // ... існуючі стилі області чату ...
+     display: flex; flex-direction: column;
+     flex-grow: 1; // Займає залишок місця
+     height: 100%;
+     min-width: 0; // Дозволяє стискатись
+     overflow: hidden;
+}

@@ -1,0 +1,21 @@
+{
+  "pluginList": [
+    "phoenixway/obsidian-ai-forge"
+  ],
+  "pluginSubListFrozenVersion": [
+    {
+      "repo": "phoenixway/obsidian-ai-forge",
+      "version": "0.2.0"
+    }
+  ],
+  "themesList": [],
+  "updateAtStartup": true,
+  "updateThemesAtStartup": true,
+  "enableAfterInstall": true,
+  "loggingEnabled": true,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": false,
+  "notificationsEnabled": true,
+  "personalAccessToken": ""
+}

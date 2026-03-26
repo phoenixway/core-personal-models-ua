@@ -1,0 +1,173 @@
+{
+  "confirmDeletion": false,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [
+    {
+      "id": "insert-template",
+      "icon": "lucide-copy",
+      "name": "Templates: Insert template",
+      "mode": "any"
+    },
+    {
+      "id": "header-adjuster:decrease-header-level-default",
+      "icon": "arrow-big-up",
+      "name": "Header Adjuster: Decrease Header Level ",
+      "mode": "any"
+    },
+    {
+      "id": "header-adjuster:increase-header-level-default",
+      "icon": "arrow-big-down",
+      "name": "Header Adjuster: Increase Header Level ",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-tasks-plugin:edit-task",
+      "icon": "pencil",
+      "name": "Tasks: Create or edit task",
+      "mode": "any"
+    },
+    {
+      "id": "task-status:change-task-status",
+      "icon": "lucide-airplay",
+      "name": "Task Status: change task status",
+      "mode": "any"
+    },
+    {
+      "id": "note-refactor-obsidian:app:extract-selection-content-only",
+      "icon": "lucide-arrow-left-from-line",
+      "name": "Note Refactor: Extract selection to new note - content only",
+      "mode": "any"
+    }
+  ],
+  "fileMenu": [
+    {
+      "id": "obsidian-icons-plugin:open-icons-plugin-modal",
+      "icon": "lucide-alarm-clock-check",
+      "name": "Icons: Insert Icon",
+      "mode": "any"
+    },
+    {
+      "id": "creases:toggle-crease",
+      "icon": "lucide-a-arrow-down",
+      "name": "Creases: Toggle crease",
+      "mode": "any"
+    },
+    {
+      "id": "file-explorer:reveal-active-file",
+      "icon": "lucide-navigation",
+      "name": "Files: Reveal current file in navigation",
+      "mode": "any"
+    },
+    {
+      "id": "markdown:add-metadata-property",
+      "icon": "lucide-plus-circle",
+      "name": "Add file property",
+      "mode": "any"
+    },
+    {
+      "id": "highlightr-plugin:highlighter-plugin-menu",
+      "icon": "highlightr-pen",
+      "name": "Highlightr: Open Highlightr",
+      "mode": "any"
+    },
+    {
+      "id": "highlightr-plugin:Green",
+      "icon": "highlightr-pen-green",
+      "name": "Highlightr: Green",
+      "mode": "any"
+    },
+    {
+      "id": "highlightr-plugin:Red",
+      "icon": "highlightr-pen-red",
+      "name": "Highlightr: Red",
+      "mode": "any"
+    }
+  ],
+  "leftRibbon": [
+    {
+      "id": "file-explorer:reveal-active-file",
+      "icon": "lucide-navigation",
+      "name": "Files: Reveal current file in navigation",
+      "mode": "any"
+    },
+    {
+      "id": "markdown:add-metadata-property",
+      "icon": "lucide-plus-circle",
+      "name": "Add file property",
+      "mode": "any"
+    },
+    {
+      "id": "markdown:toggle-preview",
+      "icon": "lucide-book-open",
+      "name": "Toggle reading view",
+      "mode": "any"
+    }
+  ],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [
+    {
+      "id": "workspace:close",
+      "icon": "lucide-x",
+      "name": "Close current tab",
+      "mode": "any"
+    }
+  ],
+  "pageHeader": [
+    {
+      "id": "workspace:close",
+      "icon": "lucide-x",
+      "name": "Close current tab",
+      "mode": "any"
+    },
+    {
+      "id": "creases:fold",
+      "icon": "lucide-fold-vertical",
+      "name": "Creases: Fold along creases",
+      "mode": "any"
+    },
+    {
+      "id": "editor:fold-all",
+      "icon": "lucide-minimize-2",
+      "name": "Fold all headings and lists",
+      "mode": "any"
+    },
+    {
+      "id": "insert-template",
+      "icon": "lucide-copy",
+      "name": "Templates: Insert template",
+      "mode": "any"
+    },
+    {
+      "id": "file-explorer:reveal-active-file",
+      "icon": "lucide-navigation",
+      "name": "Files: Reveal current file in navigation",
+      "mode": "any"
+    }
+  ],
+  "macros": [],
+  "explorer": [
+    {
+      "id": "workspace:close",
+      "icon": "lucide-x",
+      "name": "Close current tab",
+      "mode": "any"
+    }
+  ],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": []
+  },
+  "spacing": 8,
+  "advancedToolbar": {
+    "rowHeight": 30,
+    "rowCount": 3,
+    "spacing": 50,
+    "buttonWidth": 30,
+    "columnLayout": true,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

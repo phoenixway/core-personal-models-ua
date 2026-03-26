@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "id": "chat_1743790574365_rs7hze",
+    "name": "Chat 4/4/2025 09:16 PM",
+    "modelName": "gemma3:4b",
+    "selectedRolePath": "etc/ollama-ai/roles/rpg-partner.md",
+    "temperature": 0.2,
+    "createdAt": "2025-04-04T18:16:14.365Z",
+    "lastModified": "2025-04-04T18:17:33.251Z"
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "hi",
+      "timestamp": "2025-04-04T18:17:33.251Z"
+    }
+  ]
+}

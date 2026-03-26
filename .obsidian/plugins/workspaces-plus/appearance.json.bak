@@ -1,0 +1,11 @@
+{
+  "cssTheme": "Shiba Inu",
+  "theme": "moonstone",
+  "baseFontSize": 14,
+  "enabledCssSnippets": [
+    "embeddings",
+    "tags",
+    "fonts",
+    "css-classes"
+  ]
+}

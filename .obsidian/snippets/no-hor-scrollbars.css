@@ -1,0 +1,14 @@
+.nav-folder.mod-root {
+  overflow-x: hidden;
+}
+
+.nav-file-title, .nav-folder-title {
+  width: 100%;
+  padding-right: 0;
+}
+
+.nav-file-title-content, .nav-folder-title-content {
+  width: 100%;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,33 @@
+{
+  "itemData": {
+    "settings": {},
+    "main-beacons/main-beacons.md": {
+      "itemColor": "#b10bfe"
+    },
+    "strategic-goals": {
+      "itemColor": "#ea76e6"
+    },
+    "main-beacons": {
+      "itemColor": "#8c14cc"
+    },
+    "positive-authentic-beacons": {
+      "itemColor": "#ff8c2e"
+    },
+    "losses-minimization": {
+      "itemColor": "#ffbdbd"
+    },
+    "critical-affairs": {
+      "itemColor": "#fd7272"
+    },
+    "strategic-management": {
+      "itemColor": "#8847ff"
+    },
+    "areas/aquarius-areas": {
+      "itemColor": "#0a81db"
+    },
+    "areas/health-n-healing": {
+      "itemColor": "#fe1616"
+    }
+  },
+  "pluginConfig": {}
+}

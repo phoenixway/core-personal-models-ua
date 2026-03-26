@@ -1,0 +1,50 @@
+/* Base Font Size & Line Height */
+:root, body, .view-content {
+  --font-text-size: 11px !important;
+  --nav-item-size: 0.3em !important;
+  --line-height-tight: 1.5em !important;
+}
+
+/* Default Font Sizes (Base) */
+.nav-file-title, .nav-folder-title {
+  font-size: 19px;
+}
+
+.tree-item-children,
+.nav-folder-children,
+.tree-item-self,
+.nav-folder-title,
+.oz-with-subfolder {
+  font-size: 16px;
+}
+
+/* Mobile Styles (480px and below) */
+@media (max-width: 480px) {
+  .cm-line {
+    font-size: 14px;
+  }
+}
+
+/* Tablet Styles (480px - 768px) */
+@media (min-width: 480px) and (max-width: 768px) {
+  .cm-line {
+    font-size: 17px;
+  }
+}
+
+/* Desktop Styles (768px and above) */
+@media (min-width: 768px) {
+  body {
+    --font-text-size: 18px !important;
+  }
+  .nav-file-title, .nav-folder-title {
+    font-size: 19px; /* Keep default for desktop */
+  }
+  .tree-item-children,
+  .nav-folder-children,
+  .tree-item-self,
+  .nav-folder-title,
+  .oz-with-subfolder {
+    font-size: 16px; /* Keep default for desktop */
+  }
+}

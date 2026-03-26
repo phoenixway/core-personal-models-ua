@@ -1,0 +1,13 @@
+{
+  "includeFirstLineAsNoteHeading": false,
+  "excludeFirstLineInNote": false,
+  "openNewNote": true,
+  "headingFormat": "#",
+  "newFileLocation": 1,
+  "customFolder": "",
+  "fileNamePrefix": "",
+  "transcludeByDefault": false,
+  "noteLinkTemplate": "",
+  "refactoredNoteTemplate": "## Links\n* {{link}}\n## Inbox\n{{new_note_content}}",
+  "normalizeHeaderLevels": false
+}

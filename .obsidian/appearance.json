@@ -1,1 +1,7 @@
-{}
+{
+  "baseFontSize": 13,
+  "baseFontSizeAction": true,
+  "cssTheme": "Shiba Inu",
+  "theme": "system",
+  "accentColor": ""
+}

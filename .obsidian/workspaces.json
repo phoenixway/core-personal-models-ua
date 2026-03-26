@@ -1,0 +1,606 @@
+{
+  "workspaces": {
+    "health-man": {
+      "main": {
+        "id": "7fdcf48ab54d5564",
+        "type": "split",
+        "children": [
+          {
+            "id": "9ac58691a902499c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f5b393e6971fc08a",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "personal-dashboard.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "personal-dashboard"
+                }
+              },
+              {
+                "id": "95b55d77baa2da73",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "day-management/today.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "today"
+                }
+              },
+              {
+                "id": "a87a26d83729edca",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "personal-management/tactical-management/tactical-iteration.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "tactical-iteration"
+                }
+              },
+              {
+                "id": "a27d5f5366b79e3a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "personal-management/strategic-management/middle-term-strategy/middle-term-strategy.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "middle-term-strategy"
+                }
+              },
+              {
+                "id": "ea06a20ebdf0e052",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "day-management/activity-slots/devices-work.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "devices-work"
+                }
+              },
+              {
+                "id": "42ce7783a71029cc",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "projects/engineering/it/ai/ai-prompts.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "ai-prompts"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "9886055d070639d9",
+        "type": "split",
+        "children": [
+          {
+            "id": "ab0afb6f30deaa7d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1dc27484bd4c4b39",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "eb4a372596f53939",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "resea",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "42b089f8e3a4e678",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 388,
+        "collapsed": true
+      },
+      "right": {
+        "id": "952cd4ddd7e5b66e",
+        "type": "split",
+        "children": [
+          {
+            "id": "b182a2878204748b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ce0b9ba83466f318",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "day-management/today.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from today"
+                }
+              },
+              {
+                "id": "cd4e093905bf7414",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "personal-management/strategic-management/middle-term-strategy/middle-term-strategy.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of middle-term-strategy"
+                }
+              },
+              {
+                "id": "95638454e324ee23",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 822.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-ai-forge:Open AI Forge Chat": false,
+          "cmdr:Add file property": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "workspaces:Manage workspace layouts": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "cmdr:Files: Reveal current file in navigation": false,
+          "custom-sort:Toggle custom sorting": false,
+          "homepage:Open homepage": false,
+          "iconic:Open rulebook": false,
+          "obsidian-kanban:Create new board": false,
+          "omnisearch:Omnisearch": false,
+          "pomodoro-timer:Toggle timer panel": false,
+          "quick-plugin-switcher:Quick Plugin Switcher": false,
+          "darlal-switcher-plus:Open in Headings Mode": false,
+          "darlal-switcher-plus:Open Symbols for the active editor": false,
+          "darlal-switcher-plus:Open in Standard Mode": false,
+          "darlal-switcher-plus:Open Related Items for the active editor": false,
+          "task-status:Change Checkbox Status": false,
+          "obsidian42-brat:BRAT": false,
+          "workspaces-plus:Manage workspaces": false
+        }
+      },
+      "active": "a27d5f5366b79e3a",
+      "mtime": "2025-05-09T10:02:09+03:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "critical-affairs/health-n-healing",
+          "critical-affairs/health-n-healing/medical-models",
+          "etc/ai-forge/rag",
+          "etc/ai-forge/tmp",
+          "etc/roles",
+          "personal-management",
+          "personal-management/innovating",
+          "personal-management/innovating/techniques",
+          "projects",
+          "projects/01. strategic/publishing",
+          "projects/inner",
+          "projects/inner/general",
+          "projects/inner/general/core-competencies",
+          "projects/inner/general/core-competencies/action-management"
+        ]
+      }
+    },
+    "day-dr": {
+      "main": {
+        "id": "7fdcf48ab54d5564",
+        "type": "split",
+        "children": [
+          {
+            "id": "9ac58691a902499c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f5b393e6971fc08a",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "personal-dashboard.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "personal-dashboard"
+                }
+              },
+              {
+                "id": "95b55d77baa2da73",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "day-management/day-management-model/day-start.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "day-start"
+                }
+              },
+              {
+                "id": "a87a26d83729edca",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "personal-management/tactical-management/tactical-iteration.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "tactical-iteration"
+                }
+              },
+              {
+                "id": "a27d5f5366b79e3a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "personal-management/strategic-management/middle-term-strategy/middle-term-strategy.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "middle-term-strategy"
+                }
+              },
+              {
+                "id": "2685514a2d1d0b72",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "main-beacons/main-beacons.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "main-beacons"
+                }
+              },
+              {
+                "id": "ea06a20ebdf0e052",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "day-management/activity-slots/devices-work.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "devices-work"
+                }
+              },
+              {
+                "id": "cb171a0b4a723557",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "day-management/activity-slots/iw/iw.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "iw"
+                }
+              },
+              {
+                "id": "d0e4fab3843d22cd",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "day-management/activity-slots/iw/oiw.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "oiw"
+                }
+              },
+              {
+                "id": "9e8339a5244f987c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "personal-management/strategic-management/strategic-reviews/strategic-review.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "strategic-review"
+                }
+              }
+            ],
+            "currentTab": 8
+          },
+          {
+            "id": "7e7be1f5a2f90d3b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "50cce8b2a69e0d4c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "day-management/today.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "today"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "9886055d070639d9",
+        "type": "split",
+        "children": [
+          {
+            "id": "ab0afb6f30deaa7d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1dc27484bd4c4b39",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "eb4a372596f53939",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#device📱",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "42b089f8e3a4e678",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 388,
+        "collapsed": true
+      },
+      "right": {
+        "id": "952cd4ddd7e5b66e",
+        "type": "split",
+        "children": [
+          {
+            "id": "b182a2878204748b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ce0b9ba83466f318",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "projects/engineering/it/ai/ai-prompts.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from ai-prompts"
+                }
+              },
+              {
+                "id": "cd4e093905bf7414",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "day-management/today.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of today"
+                }
+              },
+              {
+                "id": "95638454e324ee23",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 411.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-ai-forge:Open AI Forge Chat": false,
+          "cmdr:Add file property": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "workspaces:Manage workspace layouts": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "cmdr:Files: Reveal current file in navigation": false,
+          "custom-sort:Toggle custom sorting": false,
+          "homepage:Open homepage": false,
+          "iconic:Open rulebook": false,
+          "obsidian-kanban:Create new board": false,
+          "omnisearch:Omnisearch": false,
+          "pomodoro-timer:Toggle timer panel": false,
+          "quick-plugin-switcher:Quick Plugin Switcher": false,
+          "darlal-switcher-plus:Open in Headings Mode": false,
+          "darlal-switcher-plus:Open Symbols for the active editor": false,
+          "darlal-switcher-plus:Open in Standard Mode": false,
+          "darlal-switcher-plus:Open Related Items for the active editor": false,
+          "task-status:Change Checkbox Status": false,
+          "obsidian42-brat:BRAT": false,
+          "workspaces-plus:Manage workspaces": false
+        }
+      },
+      "active": "50cce8b2a69e0d4c",
+      "mtime": "2025-05-10T11:14:01+03:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "critical-affairs/health-n-healing",
+          "critical-affairs/health-n-healing/medical-models",
+          "etc/ai-forge/rag",
+          "etc/ai-forge/tmp",
+          "etc/roles",
+          "personal-management",
+          "personal-management/innovating",
+          "personal-management/innovating/techniques",
+          "projects",
+          "projects/01. strategic/publishing",
+          "projects/inner",
+          "projects/inner/general",
+          "projects/inner/general/core-competencies",
+          "projects/inner/general/core-competencies/action-management"
+        ]
+      }
+    }
+  },
+  "active": "day-dr"
+}

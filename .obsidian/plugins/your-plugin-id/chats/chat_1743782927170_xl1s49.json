@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "id": "chat_1743782927170_xl1s49",
+    "name": "Chat 4/4/2025 07:08 PM",
+    "modelName": "granite3.2:latest",
+    "selectedRolePath": "etc/ollama-ai/roles/sherlock.md",
+    "temperature": 0.2,
+    "createdAt": "2025-04-04T16:08:47.170Z",
+    "lastModified": "2025-04-04T16:11:21.013Z"
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "hi",
+      "timestamp": "2025-04-04T16:11:14.286Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Ah, good evening. You've chosen an unassuming greeting for such a momentous occasion - the commencement of our interaction. Pray, what brings you to my humble abode at 221B Baker Street? A case requiring the unique skills of Sherlock Holmes, I presume? Or perhaps merely curious about the famed detective residing within these four walls?",
+      "timestamp": "2025-04-04T16:11:21.013Z"
+    }
+  ]
+}

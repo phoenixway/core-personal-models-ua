@@ -1,24 +1,27 @@
 {
   "main": {
-    "id": "8ee93ecfa55a8c5b",
+    "id": "8e299943ad1696ef",
     "type": "split",
     "children": [
       {
-        "id": "747b58bb9504689d",
+        "id": "6bfd17cff548d2f6",
         "type": "tabs",
         "children": [
           {
-            "id": "d7ae0da43026aeee",
+            "id": "f76cf61fc48a59f4",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. life-management-model/01. life-management-model.md",
-                "mode": "source",
-                "source": false
+                "file": "personal-dashboard.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "01. life-management-model"
+              "title": "personal-dashboard"
             }
           }
         ]
@@ -27,15 +30,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "6ab37c5269026bac",
+    "id": "43172484b96c7e79",
     "type": "split",
     "children": [
       {
-        "id": "768e9a4d7694b0ec",
+        "id": "e6f47d0f83d670ee",
         "type": "tabs",
         "children": [
           {
-            "id": "1fce90e7f470e28d",
+            "id": "ec7d7d41677c43ce",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,12 +51,12 @@
             }
           },
           {
-            "id": "4168f7bbf778aaea",
+            "id": "5ce628bebec8828b",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "day-rev",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,15 +66,34 @@
               "icon": "lucide-search",
               "title": "Search"
             }
-          },
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 533.9999961853027
+  },
+  "right": {
+    "id": "da9f8fde1a2a4459",
+    "type": "split",
+    "children": [
+      {
+        "id": "f9d309c5b6cc0e9e",
+        "type": "tabs",
+        "children": [
           {
-            "id": "7fba30640fa3babb",
+            "id": "3e6e122122be45a4",
             "type": "leaf",
             "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "type": "outline",
+              "state": {
+                "file": "personal-dashboard.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of personal-dashboard"
             }
           }
         ]
@@ -80,136 +102,53 @@
     "direction": "horizontal",
     "width": 300
   },
-  "right": {
-    "id": "62caeee1ef7ba420",
-    "type": "split",
-    "children": [
-      {
-        "id": "71520ada04b6b275",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "20238e51b1b679d7",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "01. life-management-model/01. life-management-model.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for 01. life-management-model"
-            }
-          },
-          {
-            "id": "01203a03250e77e8",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "01. life-management-model/01. life-management-model.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from 01. life-management-model"
-            }
-          },
-          {
-            "id": "f7d9e3dad5dd794a",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "90f31af797f7d64a",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          },
-          {
-            "id": "6700cf24b98a2ecf",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "01. life-management-model/01. life-management-model.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of 01. life-management-model"
-            }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
-  },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "cmdr:Files: Reveal current file in navigation": false,
+      "cmdr:Add file property": false,
+      "cmdr:Toggle reading view": false,
+      "iconic:Open rulebook": false,
+      "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "1fce90e7f470e28d",
+  "active": "f76cf61fc48a59f4",
   "lastOpenFiles": [
-    "01. life-management-model/06-another-models/information-system/pis.md",
-    "01. life-management-model/06-another-models/information-system/new-info-processing/new-info-processing.md",
-    "01. life-management-model/06-another-models/general-future-projecting/restore-future-vision.md",
-    "01. life-management-model/06-another-models/general-future-projecting/masterplan-checklist.md",
-    "01. life-management-model/06-another-models/general-future-projecting/general-future-projecting.md",
-    "01. life-management-model/05-lm-model-level-up/покращення моделі ужд.md",
-    "01. life-management-model/05-lm-model-level-up/5.md",
-    "01. life-management-model/05-lm-model-level-up/4.md",
-    "01. life-management-model/05-lm-model-level-up/3.md",
-    "01. life-management-model/05-lm-model-level-up/2.md",
-    "01. life-management-model/05-lm-model-level-up/1.md",
-    "01. life-management-model/04-reviews/04-reviews.md",
-    "01. life-management-model/04-reviews/01-day-review.md",
-    "01. life-management-model/00-entities/04-medium-term-program/month-management/month-management.md",
-    "01. life-management-model/00-entities/05-week/04. week-management/week-management-algorithm.md",
-    "01. life-management-model/00-entities/05-week/04. week-management/04. week-management.md",
-    "01. life-management-model/00-entities/05-week/05-week.md",
-    "00. main-beacon-realization-model/00. mbr-model.md",
-    "00. main-beacon-realization-model/ai-research/mbr-model-ai-prompts.md",
-    "00. main-beacon-realization-model/ai-research/gemini-mbr-model.md",
-    "00. main-beacon-realization-model/ai-research/chatgpt.md",
-    "00. main-beacon-realization-model/06-mbr-orchestration/06-mbr-orchestration.md",
-    "00. main-beacon-realization-model/05-mbr-control/05-mbr-control.md",
-    "00. main-beacon-realization-model/04. specific-beacon-realization/beacon-maturity-model.md",
-    "00. main-beacon-realization-model/04. specific-beacon-realization/04. specific-beacon-realization.md",
-    "00. main-beacon-realization-model/04. specific-beacon-realization/phase-4-specific-beacon-control/phase-4-specific-beacon-control.md"
+    "public",
+    "02-core-models/02. achievement-management/innovating/innovating.md",
+    "02-core-models/02. achievement-management/goals-achieving/goals-achieving.md",
+    "02-core-models/01. life-management-model/00-entities/02-main-beacon-strategic-projecting/02-main-beacon-strategic-projecting.md",
+    "02-core-models/01. life-management-model/01-protocols/04-main-beacon-strategic-projecting-protocol.md",
+    "02-core-models/01. life-management-model/02-validations/03-main-beacon-strategic-projecting-validation.md",
+    "02-core-models/01. life-management-model/01-protocols/03-key-factors-protocol.md",
+    "02-core-models/01. life-management-model/02-validations/02-main-beacon-realization-models-validation.md",
+    "02-core-models/01. life-management-model/02-validations/03-key-strategic-orientations-validation.md",
+    "02-core-models/01. life-management-model/01-protocols/04-strategic-orientations-protocol.md",
+    "02-core-models/01. life-management-model/02-validations/02-key-factors-validation.md",
+    "02-core-models/01. life-management-model/01-protocols/03-main-beacon-realization-models-protocol.md",
+    "02-core-models/01. life-management-model/00-entities/02-main-beacon-strategic-projecting/02-strategic-orientations/02-strategic-orientations.md",
+    "02-core-models/01. life-management-model/00-entities/02-main-beacon-strategic-projecting/01-key-factors/01-key-factors.md",
+    "02-core-models/01. life-management-model/00-entities/00-main-beacons/00-main-beacons.md",
+    "02-core-models/01. life-management-model/03-modes/05-control-mode/check-levels.md",
+    "02-core-models/01. life-management-model/01. life-management-model.md",
+    "02-core-models/01. life-management-model/00-entities/02-main-beacon-strategic-projecting",
+    "02-core-models/01. life-management-model/01-protocols/01-life-management-navigator-protocol/01-life-management-navigator-protocol.md",
+    "02-core-models/01. life-management-model/00-entities/01-realization-models",
+    "02-core-models/01. life-management-model/00-entities/01-realization-models/01-realization-models.md",
+    "log.md",
+    "02-core-models/01. life-management-model/03-modes/04-improve-mode/04-improve-mode.md",
+    "02-core-models/01. life-management-model/01-protocols/01-life-management-navigator-protocol/quick-mode-set.md",
+    "02-core-models/01. life-management-model/03-modes/05-control-mode/review-n-logging.md",
+    "personal-dashboard.md",
+    "02-core-models/01. life-management-model/03-modes/05-control-mode/control-defect-template.md",
+    "02-core-models/01. life-management-model/03-modes/05-control-mode/05-control-mode.md",
+    "02-core-models/01. life-management-model/01-protocols/08-day-level-protocol",
+    "02-core-models/01. life-management-model/03-modes/05-control-mode",
+    "02-core-models/01. life-management-model/03-modes/04-improve-mode",
+    "02-core-models/01. life-management-model/02-validations",
+    "02-core-models/01. life-management-model/03-modes/05-control-mode/defect-logs",
+    "02-core-models/01. life-management-model/03-modes/03-crush-recovery-mode",
+    "02-core-models/01. life-management-model/03-modes/02-recovery-mode",
+    "02-core-models/01. life-management-model/03-modes/01-execution-mode"
   ]
 }
