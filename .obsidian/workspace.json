@@ -183,7 +183,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "d7ae0da43026aeee",
+  "active": "1fce90e7f470e28d",
   "lastOpenFiles": [
     "01. life-management-model/06-another-models/information-system/pis.md",
     "01. life-management-model/06-another-models/information-system/new-info-processing/new-info-processing.md",
@@ -202,14 +202,14 @@
     "01. life-management-model/00-entities/05-week/04. week-management/week-management-algorithm.md",
     "01. life-management-model/00-entities/05-week/04. week-management/04. week-management.md",
     "01. life-management-model/00-entities/05-week/05-week.md",
-    "00. mbr-model/00. mbr-model.md",
-    "00. mbr-model/ai-research/mbr-model-ai-prompts.md",
-    "00. mbr-model/ai-research/gemini-mbr-model.md",
-    "00. mbr-model/ai-research/chatgpt.md",
-    "00. mbr-model/06-mbr-orchestration/06-mbr-orchestration.md",
-    "00. mbr-model/05-mbr-control/05-mbr-control.md",
-    "00. mbr-model/04. specific-beacon-realization/beacon-maturity-model.md",
-    "00. mbr-model/04. specific-beacon-realization/04. specific-beacon-realization.md",
-    "00. mbr-model/04. specific-beacon-realization/phase-4-specific-beacon-control/phase-4-specific-beacon-control.md"
+    "00. main-beacon-realization-model/00. mbr-model.md",
+    "00. main-beacon-realization-model/ai-research/mbr-model-ai-prompts.md",
+    "00. main-beacon-realization-model/ai-research/gemini-mbr-model.md",
+    "00. main-beacon-realization-model/ai-research/chatgpt.md",
+    "00. main-beacon-realization-model/06-mbr-orchestration/06-mbr-orchestration.md",
+    "00. main-beacon-realization-model/05-mbr-control/05-mbr-control.md",
+    "00. main-beacon-realization-model/04. specific-beacon-realization/beacon-maturity-model.md",
+    "00. main-beacon-realization-model/04. specific-beacon-realization/04. specific-beacon-realization.md",
+    "00. main-beacon-realization-model/04. specific-beacon-realization/phase-4-specific-beacon-control/phase-4-specific-beacon-control.md"
   ]
 }
