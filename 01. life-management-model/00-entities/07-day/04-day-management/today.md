@@ -1,0 +1,59 @@
+---
+icon: 🔥
+up:
+  - "[[day-level-management]]"
+cssclasses:
+  - red
+---
+## Links %% fold %% 
+- [[day-management]]
+- [[ideal-day]]
+- [[02. personal-management/day-management/day-management-model/day-management-model]]
+- [[02. personal-management/day-management/day-management-model/phases/day-management-itself/day-projecting/day-projecting]]
+- [[02. personal-management/day-management/day-management-model/phases/day-management-itself/day-projecting/day-projecting#Критерії проекту доби високого рівня fold|Критерії проекту доби високого рівня]]
+- [[01-day-review]]
+- [[day-level-up]]
+- [[areas/personal-management/personal-calendar]]
+- [[tactical-iteration]]
+- [[middle-term-strategy]]
+- [[long-term-strategy]]
+- [[activity-slots]]
+## Today
+- **Activity type slots**
+- ***Top 3 goals***
+	- [ ] [[treatment]]
+	- [ ] [[life-progress]] р
+		- [ ] проектування ті, 3 mst проекти
+		- [ ] [[future-projecting]]
+		- [ ] [[medical-homework]]
+- **General considiration**
+	- виконувати план доби
+	- рішучіше виконувати прибиральну норму
+	- фокус на првр
+	- в 
+	- не ігноорувати кр цілі і обовязки
+	- смарт планування цілей
+	- боротися за р своїх  цілей доби
+	- зволікання, уникнення з капанням - вбивство
+	- краще використовувати вільні [[activity-slots]]
+	- 
+- **Backlog**
+	- **In Work**
+		- [ ] обов'язкове лікування всіх кого треба #critical #unclear
+		- [ ] па !
+		- [x] замв !
+		- [ ] info-defence + #device
+		- [ ] [[critical/adrian-goal]] + #mental зокрема п, дк по цілі
+		- [ ] [[mtu-value]] review + #mental #device
+		- [ ] [[beacons-clearence]] + #mental
+		- [ ] мін варіант піс #manual
+		- [ ] #manual поміряти для полки
+		- [ ] [[buy]]
+		- [ ] [[providence]] #manual
+		- [ ] продуктивний день прожити
+		- [ ] лв
+	- **Pending**  %% fold %% 
+		- see [[tactical-iteration#Backlog]]
+		- see [[middle-term-strategy#🎯Backlog]]
+	- **Done**
+		- [x] документи по уд такі щоб [[day-management]] був такий щоб щсеп були вр

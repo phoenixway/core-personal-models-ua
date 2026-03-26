@@ -1,0 +1,11 @@
+- можливості для р цінностей 
+	- [[beacons-clearence]]
+- р цінностей 
+	- [[primary-beacons]]
+		- [[mtu-value]]
+		- [[angelica-value]]
+		- [[s0-value]]
+		- [[maximal-main-beacons-realization-on-all-scales-value]]
+- проблеми 
+	- ch
+	- angelica-value related 

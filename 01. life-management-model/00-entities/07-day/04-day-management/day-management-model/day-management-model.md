@@ -1,0 +1,28 @@
+---
+cssclasses:
+  - clean-embeds
+  - embed-strict
+up:
+  - "[[day-management]]"
+obsidianUIMode: preview
+obsidianEditingMode: live
+---
+## Waypoint  %% fold %%
+%% Begin Waypoint %%
+- **phases**
+	- **[[day-management-itself]]**
+	- **[[specific-goal-realization-management]]**
+	- [[next-goal-choosing]]
+- [[02-core-models/01. life-management-model/00-entities/07-day/04-day-management/day-management-model/beacons-review]]
+- [[day-start]]
+- [[decision-making-in-day-management]]
+
+%% End Waypoint %%
+- **phases**
+	- **[[02-core-models/01. life-management-model/00-entities/06-day/04-day-management/day-management-model/phases/day-management-itself/day-management-itself]]n-day-ma[[02-core-models/01. life-management-model/00-entities/06-day/04-day-management/day-management-model/phases/specific-goal-realization-management/specific-goal-realization-management]]manage[[02-core-models/01. life-management-model/00-entities/06-day/04-day-management/day-management-model/phases/next-goal-choosing]]/sp[[02-core-models/01. life-management-model/00-entities/06-day/04-day-management/day-management-model/beacons-review]]-en[[02-core-models/01. life-management-model/00-entities/06-day/04-day-management/day-management-model/day-start]]age[[02-core-models/01. life-management-model/00-entities/06-day/04-day-management/day-management-model/decision-making-in-day-management]]tities-models/06-day/04-day-management/day-management-model/day-start]]s-m[[02-core-models/01. life-management-model/00-entities-models/06-day/04-day-management/day-management-model/decision-making-in-day-management]]day-management/day-management-model/day-start]]-mo[[02. personal-management/02-core-models/01. life-management-model/00-entities-models/06-day/04-day-management/day-management-model/decision-making-in-day-management]]ay-management/day-management-model/day-start]]men[[02. personal-management/01. core-models/01. life-management-model/00-entities-models/06-day/04-day-management/day-management-model/decision-making-in-day-management]]ls/05. day-management-model/04. day-management/day-management-model/phases/day-management-itself/day-management-itself]]ent-it[[02. personal-management/02. levels/05. day-management-model/04. day-management/day-management-model/phases/next-goal-choosing]]agemen[[02. personal-management/02. levels/05. day-management-model/04. day-management/day-management-model/phases/specific-goal-realization-management/specific-goal-realization-management]]gement-model/phases[[02. personal-management/day-management/day-management-model/phases/day-management-itself/day-control/today-inner-readiness]]ge[[02. personal-management/day-management/day-management-model/decision-making-in-day-management]]rson[[02. personal-management/day-management/day-management-model/phases/day-management-itself/day-projecting/day-projecting]]personal-management/day-management/day-man[[02. personal-management/day-management/day-management-model/decision-making-in-day-management]]-man[[02. personal-management/day-management/day-management-model/phases/day-management-itself/day-projecting/day-projecting]]personal-management/day-management/day-man[[02. personal-management/day-management/day-management-model/decision-making-in-day-management]]emen[[02. personal-management/day-management/day-management-model/phases/day-management-itself/day-projecting/day-projecting]]self/day-control/today-inner-readiness]]
+
+[[02. personal-management/02. strategic/core-models/life-management-model/day-management-model/04. day-management/day-management-model/decision-making-in-day-management]]- вр[[02. personal-management/02. strategic/core-models/life-management-model/day-management-model/04. day-management/day-management-model/phases/day-management-itself/day-projecting/day-projecting]]]]
+- [[ideal-day-older]] має бути досягнутий якщо 
+	- всі [[#Operations of day-level personal management]] будуть реалізовувані на високому рі[[02. personal-management/day-management/day-management-model/phases/specific-goal-realization-management/stop-unnecessary-activities]]- контроль над тривалістю поточних активностей 
+	- переривання не пріоритетних акт[[01. personal-managemen[[02. personal-management/day-management/day-management-model/phases/specific-goal-realization-management/stop-unnecessary-activities]]l-realization-management/stop-unnecessary-activities]]
+	- реал[[personal-managemen[[01. personal-management/day-managemen[[02. personal-management/day-management/day-management-model/day-start]]nnecess[[02. personal-management/day-management/day-management-model/phases/next-goal-choosing]]іяльності, аспе[[02. personal-management/day-management/day-management-model/phases/specific-goal-realization-management/specific-goal-realization-management]]anagement/day-man[[02. personal-management/day-management/day-management-model/phases/next-goal-choosing]]agement/day-man[[02. personal-management/day-management/day-management-model/phases/specific-goal-realization-management/specific-goal-realization-management]]anagement/day-man[[02. personal-management/day-management/day-management-model/phases/next-goal-choosing]]sonal-managemen[[02. personal-management/day-management/day-management-model/phases/specific-goal-realization-management/specific-goal-realization-management]]ay-start]]del/pha[[02. personal-management/02. strategic/core-models/life-management-model/day-management-model/04. day-management/day-management-model/phases/next-goal-choosing]]losing-control][[02. personal-management/02. strategic/core-models/life-management-model/day-management-model/04. day-management/day-management-model/phases/specific-goal-realization-management/specific-goal-realization-management]]ement/day-management-model/phases/next-goal-choosing]]

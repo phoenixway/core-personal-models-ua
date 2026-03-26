@@ -1,0 +1,1 @@
+- [[areas/inner/general/core-competencies/self-regulation/self-regulation]]

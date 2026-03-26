@@ -1,0 +1,7 @@
+- вп бли, переглянути, взяти чи встановити цілі 
+	- [[activity-slots]]
+	- [[tactical-iteration]]
+	- [[middle-term-strategy]]
+	- [[long-term-strategy]]
+	- [[beacons/activity-slots/mental-work/future-projecting/primary-beacons]]
+	- [[main-beacons]]

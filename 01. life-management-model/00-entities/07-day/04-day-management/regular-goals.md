@@ -1,0 +1,50 @@
+## Links 
+- [[areas/personal-management/goals-selection/responsibility-zones]]
+- #regular 
+
+## **Everyday goals**  %% fold %%
+- [[critical-affairs]]
+	- [[treatment]]
+	- critical [[losses-minimization]]
+- [[day-management]]
+	- підготовка до завтра
+	- [[01-day-review]]
+	- [[02. personal-management/day-management/day-management-model/phases/day-management-itself/day-projecting/day-projecting]]
+	- etc
+- [[tactical-iteration]]
+- [[every-day-level-up]]
+- [[minimally-necessary-maintainence-and-providence]]
+	- прання
+	- прибирання
+	- гпї
+	- миття посуду
+	- покупки
+	- зарядка 
+## Регулярні цілі 
+- #regular-goal 
+- підготовка місця для збереження інфи про правду #str-must 
+- обробка і завантаження в хмару доказів правди #str-must  #sharing-true 
+- #tactical🔥 
+	- [[private🔒/🌳life-management/🆘critical-affairs-management/💊health-management/healing-ability/катетеризація]] тренування обох #critical🆘 
+	- вчити Сл лз #critical🆘 
+	- кк Сл самокат
+- 
+- [[mts 2024-08-16 dev#regular]]
+- [[private🔒/life-management/tools/everyday-success-foundation/everyday-success-foundation]]
+- [[🚩losses-management]]
+- [[🛑critical-affairs]]
+- [[minimally-necessary-maintainence-and-providence]]
+- рр ті 
+- рр сстр 
+- рр дстр 
+- рр го 
+- [[reviews]]
+- впорядкувати інбокси 
+- [[🛡️defence]]
+- [[eva-project]]
+- [[reflections]]
+- сщеп++
+- [[losses-minimization]]
+- обробка нзі
+- [[offline🏡/private🔒 (Копія)/projects/🚩critical/💊health-management/💊health-management]]
+- ввл #str🔭everyday-goals

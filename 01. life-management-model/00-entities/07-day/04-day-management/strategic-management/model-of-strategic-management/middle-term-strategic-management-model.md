@@ -1,0 +1,2 @@
+- [[middle-term-strategic-projecting-model]]
+- 
