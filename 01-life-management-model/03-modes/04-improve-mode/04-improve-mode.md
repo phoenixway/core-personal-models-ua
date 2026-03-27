@@ -65,8 +65,8 @@ up:
 👉 Відкрий протокол відповідного рівня і працюй тільки по ньому
 
 - [[02-main-beacons-protocol]]
-- [[03-key-factors-protocol]]
-- [[04-strategic-orientations-protocol]]
+- [[03-main-beacon-realization-models-protocol]]
+- [[04-main-beacon-strategic-projecting-protocol]]
 - [[05-long-term-strategy-protocol]]
 - [[06-medium-term-strategy-protocol]]
 - [[07-week-protocol]]
