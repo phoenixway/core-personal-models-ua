@@ -5,6 +5,7 @@ up:
 ## Links
 - [[key-results-from-objective]]
 - [[phase-2-project-planning]]
+- [[main-beacon-types]]
 ## Inbox
 - за принципом Парето виділити ключові цілі беклогу
 - _Мета: Конвертувати абстракцію в алгоритм._
