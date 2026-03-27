@@ -45,13 +45,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-life-management-model/01-protocols/03-main-beacon-realization-models-protocol/03-main-beacon-realization-models-protocol-1.0.0.md",
+                "file": "01-life-management-model/01-protocols/07-week-protocol/07-week-protocol.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "03-main-beacon-realization-models-protocol-1.0.0"
+              "title": "07-week-protocol"
             }
           },
           {
@@ -133,13 +133,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-life-management-model/01-protocols/03-main-beacon-realization-models-protocol/03-main-beacon-realization-models-protocol-1.0.0.md",
+                "file": "01-life-management-model/01-protocols/07-week-protocol/07-week-protocol.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 03-main-beacon-realization-models-protocol-1.0.0"
+              "title": "Outline of 07-week-protocol"
             }
           }
         ]
@@ -158,9 +158,18 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "eb3778412a950e3d",
+  "active": "ec7d7d41677c43ce",
   "lastOpenFiles": [
+    "01-life-management-model/01-protocols/07-week-protocol",
+    "01-life-management-model/01-protocols/06-medium-term-strategy-protocol/06-medium-term-strategy-protocol.md",
+    "01-life-management-model/01-protocols/06-medium-term-strategy-protocol",
+    "01-life-management-model/01-protocols/05-long-term-strategy-protocol/05-long-term-strategy-protocol.md",
+    "01-life-management-model/01-protocols/05-long-term-strategy-protocol",
+    "01-life-management-model/01-protocols/Untitled.md",
+    "01-life-management-model/01-protocols/04-main-beacon-strategic-projecting-protocol/04-main-beacon-strategic-projecting-protocol.md",
+    "01-life-management-model/01-protocols/04-main-beacon-strategic-projecting-protocol",
     "01-life-management-model/01-protocols/03-main-beacon-realization-models-protocol/03-main-beacon-realization-models-protocol.md",
+    "01-life-management-model/01-protocols/02-main-beacons-protocol",
     "01-life-management-model/01-protocols/03-main-beacon-realization-models-protocol/03-main-beacon-realization-models-protocol-1.0.0.md",
     "01-life-management-model/00-entities/01-realization-models/01-realization-models.md",
     "00-main-beacon-realization-model/04. specific-beacon-realization/main-beacon-types/main-beacon-types.md",
@@ -185,16 +194,7 @@
     "02-goals-achieving/project-management/project-realization-model/phase-2-project-planning/PROJECT-ORIENTIR- PLANNING.md",
     "02-goals-achieving/project-management/project-realization-model/phase-2-project-planning/key-results-from-objective.md",
     "02-goals-achieving/project-management/project-realization-model/phase-2-project-planning/difficult-goals-planning.md",
-    "02-goals-achieving/project-management/project-realization-model/phase-4-project-reflection-correction/phase-4-project-reflection-correction.md",
-    "02-goals-achieving/project-management/project-realization-model/phase-3-project-actual-realization/phase-3-project-actual-realization.md",
-    "02-goals-achieving/project-management/project-realization-model/phase-2-project-planning/phase-2-project-planning.md",
-    "02-goals-achieving/project-management/project-realization-model/project-realization-model.md",
-    "02-goals-achieving/project-management/scrum.md",
     "02-goals-achieving/project-management/project-realization-model/phase-4-project-reflection-correction",
-    "02-goals-achieving/project-management/project-realization-model/phase-3-project-actual-realization",
-    "02-goals-achieving/project-management/project-realization-model/phase-2-project-planning",
-    "02-goals-achieving/project-management/project-realization-model/phase-1-project-identification",
-    "02-goals-achieving/project-management/project-realization-model",
-    "02-goals-achieving/project-management"
+    "02-goals-achieving/project-management/project-realization-model/phase-3-project-actual-realization"
   ]
 }
