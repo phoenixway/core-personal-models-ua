@@ -8,23 +8,54 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f76cf61fc48a59f4",
+            "id": "f201fd47d0ce5345",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal-dashboard.md",
-                "mode": "preview",
+                "file": "01. life-management-model/01-protocols/01-life-management-navigator-protocol/01-life-management-navigator-protocol.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "personal-dashboard"
+              "title": "01-life-management-navigator-protocol"
+            }
+          },
+          {
+            "id": "1a63058133252579",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01. life-management-model/00-entities/01-realization-models/01-realization-models.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "01-realization-models"
+            }
+          },
+          {
+            "id": "7bcfeab6e807f872",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00. main-beacon-realization-model/01-mb-week-cycle/01-mb-week-cycle.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "01-mb-week-cycle"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -87,13 +118,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal-dashboard.md",
+                "file": "00. main-beacon-realization-model/01-mb-week-cycle/01-mb-week-cycle.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of personal-dashboard"
+              "title": "Outline of 01-mb-week-cycle"
             }
           }
         ]
@@ -112,8 +143,14 @@
       "workspaces-plus:Manage workspaces": false
     }
   },
-  "active": "f76cf61fc48a59f4",
+  "active": "7bcfeab6e807f872",
   "lastOpenFiles": [
+    "01. life-management-model/00-entities/01-realization-models/01-realization-models.md",
+    "00. main-beacon-realization-model/01-mb-week-cycle/01-mb-week-cycle.md",
+    "01. life-management-model/03-modes/05-control-mode/check-levels.md",
+    "01. life-management-model/01-protocols/01-life-management-navigator-protocol/01-life-management-navigator-protocol.md",
+    "01. life-management-model/01-protocols/01-life-management-navigator-protocol/quick-mode-set.md",
+    "01. life-management-model/01. life-management-model.md",
     "public",
     "02-core-models/02. achievement-management/innovating/innovating.md",
     "02-core-models/02. achievement-management/goals-achieving/goals-achieving.md",
@@ -137,18 +174,12 @@
     "02-core-models/01. life-management-model/00-entities/01-realization-models/01-realization-models.md",
     "log.md",
     "02-core-models/01. life-management-model/03-modes/04-improve-mode/04-improve-mode.md",
-    "02-core-models/01. life-management-model/01-protocols/01-life-management-navigator-protocol/quick-mode-set.md",
-    "02-core-models/01. life-management-model/03-modes/05-control-mode/review-n-logging.md",
-    "personal-dashboard.md",
-    "02-core-models/01. life-management-model/03-modes/05-control-mode/control-defect-template.md",
-    "02-core-models/01. life-management-model/03-modes/05-control-mode/05-control-mode.md",
     "02-core-models/01. life-management-model/01-protocols/08-day-level-protocol",
     "02-core-models/01. life-management-model/03-modes/05-control-mode",
     "02-core-models/01. life-management-model/03-modes/04-improve-mode",
     "02-core-models/01. life-management-model/02-validations",
     "02-core-models/01. life-management-model/03-modes/05-control-mode/defect-logs",
     "02-core-models/01. life-management-model/03-modes/03-crush-recovery-mode",
-    "02-core-models/01. life-management-model/03-modes/02-recovery-mode",
-    "02-core-models/01. life-management-model/03-modes/01-execution-mode"
+    "02-core-models/01. life-management-model/03-modes/02-recovery-mode"
   ]
 }
