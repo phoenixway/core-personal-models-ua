@@ -66,17 +66,20 @@ up:
 
 - [[02-main-beacons-protocol]]
 - [[03-main-beacon-realization-models-protocol]]
-- [[04-main-beacon-strategic-projecting-protocol]]
-- [[05-long-term-strategy-protocol]]
-- [[06-medium-term-strategy-protocol]]
-- [[07-week-protocol]]
-- [[08-day-level-protocol]]
+- [[04-main-beacon-mandatory-core-protocol]]
+- [[05-main-beacon-strategic-projecting-protocol]]
+- [[06-long-term-strategy-protocol]]
+- [[07-medium-term-strategy-protocol]]
+- [[08-week-protocol]]
+- [[09-day-level-protocol]]
 
 RULE:
 
 - не змішую рівні
 - не відкриваю інші протоколи
 - не “допилюю все одразу”
+- якщо поточний рівень не дає ясного входу в нижчий,
+  спочатку перевіряю, чи не пропущено рівень вище
 
 ---
 
