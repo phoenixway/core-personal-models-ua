@@ -11,10 +11,14 @@ DATE:
 VALIDATION RESULT:
 GO: valid/invalid
 KF: valid/invalid
+CORE: valid/invalid
 SO: valid/invalid
 STR: valid/invalid
 PRG: valid/invalid
 OPS: valid/invalid
+
+CORE SIGNAL:
+- ядро видно / ядро розмите / ядро втрачено
 
 TARGET LEVEL:
 

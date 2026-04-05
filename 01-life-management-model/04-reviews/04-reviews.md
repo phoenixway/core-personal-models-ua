@@ -11,7 +11,7 @@ up:
 ### OBS_1
 
 TYPE:
-(blocked / useless / high impact / wrong assumption)
+(blocked / useless / high impact / wrong assumption / core loss / pseudo-realization)
 
 DESCRIPTION:
 
@@ -28,6 +28,7 @@ IF problem == local → fix OPS/PRG
 IF problem == structural → fix STR/SO
 IF problem == model → fix KF
 IF problem == fundamental → fix GO
+IF problem == core loss or pseudo-realization → review CORE level before changing strategy
 
 ---
 
