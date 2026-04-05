@@ -1,4 +1,0 @@
-- р [[critical-affairs]]
-- рівень реалізації фаз [[day-level-management-model#Phases]]
-- [[02. personal-management/02. strategic/core-models/life-management-model/day-management-model/phases/day-management-itself/day-control/day-level-inner-readiness-control]]
-- 

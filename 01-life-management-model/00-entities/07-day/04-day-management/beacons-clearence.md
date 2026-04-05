@@ -1,4 +1,0 @@
----
-up:
-  - "[[day-management]]"
----
