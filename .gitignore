@@ -12,3 +12,4 @@
 .obsidian/plugins/obsidian-ollama-duet/chat_history.json
 *.mp3
 .obsidian/plugins/iconic/data.json.backup6
+.obsidian/workspace.json
