@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[01. life-management-model]]"
+  - "[[05-control-mode]]"
 ---
 # ГОЛОВНІ ОРІЄНТИРИ
 

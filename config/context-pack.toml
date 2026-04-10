@@ -1,0 +1,46 @@
+# Активний конфіг для scripts/context_pack.py.
+# Розширений самодокументований шаблон дивіться в config/context-pack.example.toml.
+
+# Куди записувати згенеровані збірні файли.
+[output]
+dir = "build/context-packs"
+
+# Як саме ділити вміст на пакети.
+[packing]
+strategy = "hybrid"
+max_chars_per_pack = 40000
+max_output_files = 10
+subdir_pack_threshold = 10
+
+# Що включати.
+[include]
+extensions = [".md"]
+globs = [
+  "*.md",
+  "**/*.md",
+]
+files = []
+root_files = true
+
+# Що виключати.
+[exclude]
+dirs = [
+  ".git",
+  ".obsidian",
+  ".trash",
+  "node_modules",
+  "01-life-management-model/05-lm-model-level-up",
+  "01-life-management-model/06-another-models",
+  "build"
+]
+globs = [
+  "**/README.md",
+  "**/00-README.md",
+  "**/* 1.md",
+  "**/gemini*.md",
+]
+files = []
+
+# Як оформлювати згенеровані файли.
+[render]
+tree_header = true

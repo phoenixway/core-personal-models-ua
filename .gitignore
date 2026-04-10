@@ -13,3 +13,4 @@
 *.mp3
 .obsidian/plugins/iconic/data.json.backup6
 .obsidian/workspace.json
+build/context-packs/

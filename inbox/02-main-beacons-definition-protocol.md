@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[01-protocols]]"
+  - "[[05-control-mode]]"
 ---
 ---
 up:

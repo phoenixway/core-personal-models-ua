@@ -1,0 +1,116 @@
+# Приклад конфіга для scripts/context_pack.py
+#
+# Один конфіг = один сценарій пакування.
+# Зазвичай ви копіюєте цей файл, змінюєте правила і запускаєте:
+# python3 scripts/context_pack.py --root 01-life-management-model/03-modes --config config/my-pack.toml
+
+# Куди записувати згенеровані збірні файли.
+[output]
+dir = "build/context-packs"
+
+# Як саме ділити вміст на пакети.
+[packing]
+
+# Можливі значення:
+# - "by-size": просто різати весь набір по max_chars_per_pack
+# - "by-subdir": окремий пакет на кожну безпосередню підпапку root
+# - "hybrid": якщо підпапок небагато, пакувати по підпапках, інакше по size
+strategy = "hybrid"
+
+# Максимальний розмір одного збірного файла в символах.
+# Це грубий, але практичний proxy для token budget.
+max_chars_per_pack = 40000
+
+# Максимальна кількість вихідних .md файлів, включаючи manifest.md.
+# Наприклад, якщо тут 10, то контент-паків може бути максимум 9.
+# Якщо первинне пакування дає більше, скрипт додатково зіллє пакети.
+max_output_files = 10
+
+# Для strategy = "hybrid":
+# якщо кількість безпосередніх підпапок root <= цього числа,
+# скрипт робить окремі пакети по підпапках.
+subdir_pack_threshold = 10
+
+# Що включати.
+[include]
+
+# Розширення файлів, які взагалі дозволено брати.
+extensions = [".md"]
+
+# Базові include-правила.
+# Якщо файл не збігається з жодним glob тут і не вказаний явно в include.files,
+# він не потрапить у збірку.
+globs = [
+  "*.md",
+  "**/*.md",
+]
+
+# Явний список файлів, які треба включити.
+# Корисно для винятків або коли загальні globs вузькі.
+files = [
+  # "01-life-management-model/03-modes/03-modes.md",
+]
+
+# Чи брати markdown-файли з кореня цільової папки.
+# Якщо false, будуть братися тільки файли в підпапках.
+root_files = true
+
+# Що виключати.
+[exclude]
+
+# Папки, які треба повністю ігнорувати.
+dirs = [
+  ".git",
+  ".obsidian",
+  ".trash",
+  "node_modules",
+]
+
+# Glob-правила для виключення.
+globs = [
+  "**/README.md",
+  "**/00-README.md",
+  "**/* 1.md",
+  "**/gemini*.md",
+]
+
+# Явний список файлів, які завжди треба виключати.
+files = [
+  # "01-life-management-model/03-modes/05-control-mode/metrics/metrics.md",
+]
+
+# Як оформлювати згенеровані файли.
+[render]
+
+# Якщо true, на початку кожного збірного файла буде список included-файлів.
+tree_header = true
+
+# Типові сценарії
+#
+# 1. Хочу пакувати тільки певний тип файлів:
+# [include]
+# extensions = [".md"]
+# globs = ["**/*review*.md"]
+# files = []
+# root_files = true
+#
+# 2. Хочу жорстко включити лише кілька конкретних файлів:
+# [include]
+# extensions = [".md"]
+# globs = []
+# files = [
+#   "01-life-management-model/03-modes/03-modes.md",
+#   "01-life-management-model/03-modes/05-control-mode/05-control-mode.md",
+# ]
+# root_files = true
+#
+# 3. Хочу відключити README, чернетки і дублікати:
+# [exclude]
+# dirs = [".git", ".obsidian", ".trash", "node_modules"]
+# globs = [
+#   "**/README.md",
+#   "**/draft*.md",
+#   "**/* copy.md",
+#   "**/* 1.md",
+# ]
+# files = []
