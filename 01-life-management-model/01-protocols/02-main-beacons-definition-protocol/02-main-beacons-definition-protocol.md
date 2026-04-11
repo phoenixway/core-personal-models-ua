@@ -10,7 +10,7 @@ up:
 
 ## Links
 - [[main-beacons-list]]
-- [[02-main-beacons-definition-validation]]
+- [[01-main-beacons-definition-validation]]
 - [[main-beacons-list-template]]
 - [[main-beacon-profile-template]]
 
