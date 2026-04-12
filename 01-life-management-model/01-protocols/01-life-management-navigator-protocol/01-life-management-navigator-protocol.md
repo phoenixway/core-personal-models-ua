@@ -2,7 +2,7 @@
 up:
   - "[[01-life-management-model]]"
 ---
-
+**
 # 🎯 TODAY LIFE MANAGEMENT NAVIGATOR
 
 👉 Мета:  
